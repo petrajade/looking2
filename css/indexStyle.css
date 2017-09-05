@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Montserrat/Montserrat-Regular.ttf');
+  /*src: url('../font/Museo/MuseoSansRounded-500.eot?#iefix') format('embedded-opentype'), url('../font/Museo/MuseoSansRounded-500.woff') format('woff'), url('../font/Museo/MuseoSansRounded-500.ttf') format('truetype'), url('../font/Museo/MuseoSansRounded-500.svg#Peak-Bold') format('svg');*/
+  font-weight: normal;
+  font-style: normal;
+}
+/*=======================DESKTOP==================================*/
+
+#mainPageWrapper {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  /*max-width: 900px;*/
+  height: 100%;
+  /*border: 3px solid pink;*/
+  margin: 0 auto;
+}
+
+#appImage {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  float: left;
+  max-width: 40%;
+  max-height: 90%;
+  padding-left: 100px;
+  /*border: 3px solid teal;*/
+}
+
+#mainPageTextWrapper {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  float: left;
+  max-width: 510px;
+  padding-left: 30px;
+  margin: -70px 0px 0px 0px;
+  /*border: 3px solid red;*/
+  text-align: left;
+}
+
+#mainPageTitle {
+  position: relative;
+  display: inline-block;
+  width: 520px;
+  height: 30px;
+  margin-top: 40px;
+  /*border: 3px solid blue;*/
+}
+
+#fixedTitleText {
+  position: absolute;
+  left: 0;
+  width: 350px;
+  text-align: left;
+}
+
+#mainPageTitle h1 {
+  font-size: 1.25rem;
+}
+
+.titleAnimation {
+  position: absolute;
+  right: 0px;
+  width: 165px;
+  padding-left: 0px !important;
+  text-align: left !important;
+}
+
+#titleAnimationColor {
+  opacity: 0.0;
+}
+
+#mainPageSubtitle {
+  padding-bottom: 5px;
+  margin-top: -5px;
+  color: #ffb94d;
+  font-size: 1rem;
+}
+
+#storeBtns {
+  position: relative;
+  padding: 15px 0px 5px 0px;
+  margin-left: -15px;
+  height: 75px;
+}
+
+#appStore {
+  max-width: 173px;
+}
+
+#playStore {
+  max-width: 150px;
+  margin-left: -15px;
+}
+
+#mobileMainPageWrapper {
+  display: none;
+}
+
+/*=======================MOBILE==================================*/
+@media only screen and (max-width : 768px) {
+
+#mainPageWrapper {
+  display: none;
+}
+
+#mobileMainPageWrapper {
+  position: absolute;
+  z-index: 0;
+  top: 0px;
+  bottom: 0;
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  /*border: 3px solid pink;*/
+  margin: 0 auto;
+}
+
+#mainPageTextWrapper {
+  position: relative;
+  top: 0px;
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  float: none;
+  max-width: 100%;
+  padding: 0px 0px 0px 0px;
+  /*border: 3px solid red;*/
+  margin: 0px 0px 0px 10px;
+  text-align: left;
+}
+
+#mainPageTitle {
+  position: relative;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  /*border: 3px solid blue;*/
+  text-align: left;
+}
+
+#mainPageSubtitle {
+  position: relative;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  color: #ffb94d;
+  font-size: 1rem;
+}
+
+#mobileMainPageText {
+  position: relative;
+  margin-top: 10px;
+}
+
+#storeBtns {
+  padding: 10px 0px 5px 0px;
+  /*border: 3px solid green;*/
+  margin: 10px 0px 0px 0px;
+}
+
+#appImage {
+  position: relative;
+  top: 0px;
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  float: none;
+  max-width: 50%;
+  max-height: 90%;
+  padding-left: 0px;
+  /*border: 3px solid teal;*/
+  margin: 0px 0px 0px 0px;
+}
+
+}

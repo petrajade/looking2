@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Montserrat/Montserrat-Regular.ttf');
+  /*src: url('../font/Museo/MuseoSansRounded-500.eot?#iefix') format('embedded-opentype'), url('../font/Museo/MuseoSansRounded-500.woff') format('woff'), url('../font/Museo/MuseoSansRounded-500.ttf') format('truetype'), url('../font/Museo/MuseoSansRounded-500.svg#Peak-Bold') format('svg');*/
+  font-weight: normal;
+  font-style: normal;
+}
+/*=======================DESKTOP==================================*/
+
+#privacyContainer {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  bottom: 50px;
+  left: 0;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+#privacyTitle h1 {
+  margin: 10px 0px 20px 0px;
+  color: #787878;
+  text-align: center;
+}
+
+#privacyLastUpdated h2 {
+  margin: 10px 5% 20px 5%;
+  color: #787878;
+  text-align: left;
+}
+
+#privacyContent {
+  margin: 10px 5% 30px 5%;
+  color: #787878;
+  text-align: left;
+}
+
+#privacyContent a {
+  color: #6686ff;
+}
+
+#privacyContent ol {
+  margin-left: 40px;
+  color: #787878;
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: .8rem;
+}
+
+.privacySubtitle {
+  margin: 20px 0px 20px 0px;
+  color: #787878;
+  text-align: left;
+  text-decoration: underline;
+}
+
+/*=======================MOBILE==================================*/
+@media only screen and (max-width : 768px) {
+
+#privacyContainer {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+
+}
